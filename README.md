@@ -138,17 +138,17 @@ meta <- read.csv(
 
 # Train a TempoGap model
 model <- train_temporal_model(
-  expr_mat = as.matrix(expr),
-  metadata = meta,
-  time_col = "hours_since_injury"
+  expression_matrix = as.matrix(expr),
+  time_vetor = "hours_since_injury",
+  n_boot = 500
 )
 
 # Predict TempoGap scores
 tempogap_result <- predict_temporal_gap(
   model = model,
-  expr_mat = as.matrix(expr),
-  metadata = meta,
-  time_col = "hours_since_injury"
+  expression_matrix = as.matrix(expr),
+  actual_time = y_test,
+  n_boot = 100
 )
 
 head(tempogap_result)
