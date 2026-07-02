@@ -52,7 +52,7 @@ A step-by-step HTML tutorial is provided to help users train their own immune re
 
 Tutorial link:
 
-[TempoGap vignette](https://github.com/DrCTD/TempoGap/blob/main/vignette.html)
+[TempoGap vignette](https://DrCTD.github.io/TempoGap/vignette.html)
 
 The tutorial introduces how to:
 
