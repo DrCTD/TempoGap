@@ -220,7 +220,6 @@ For questions, please contact:
 
 ```text
 Teding Chang
-changt5@upmc.edu
 Department of Surgery
 University of Pittsburgh
 ```
