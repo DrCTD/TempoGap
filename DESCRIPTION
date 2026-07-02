@@ -1,0 +1,13 @@
+Package: TempoGap
+Title: Predict Recovery Class Using Temporal Gap Model
+Version: 0.0.0.9000
+Authors@R: 
+    person("TeDing", "Chang", , "changt5@upmc.edu", role = c("aut", "cre"))
+Description: This package implements the TempoGap model to predict trauma patient recovery class using the deviation between actual and predicted post-injury time from gene expression data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    ggplot2
+LazyData: true
