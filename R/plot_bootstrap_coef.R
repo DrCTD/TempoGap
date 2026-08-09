@@ -39,7 +39,7 @@
 #' }
 #'
 #' @export
-plot_bootstrap_coef <- function(coef_matrix,
+plot_bootstrap_coeffcients <- function(coef_matrix,
                                 bootstrap_times = 500,
                                 top_n = 20,
                                 positive_color = "#C44E52",
